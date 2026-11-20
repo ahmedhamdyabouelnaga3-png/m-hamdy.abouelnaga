@@ -1,0 +1,82 @@
+body{
+    background-color:lightblue;
+    font-size: 20px;
+}
+.form{
+    background-color:lightgray;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 22px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+.aa{
+    background-color: lightcyan;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+.sub{
+    background-color: darkgreen;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 30px;
+    font-size: 24px;
+    size: 25px;
+    color: white;
+}
+.sub:hover{
+    background-color: lightgreen;
+    color: black;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+}
+.social-icons a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #192630;
+  color: #F1F5F9;
+  font-size: 25px;
+  border-radius: 15px;
+  box-decoration-break: 1px solid #2B3B47;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.social-icons a:hover {
+  transform: translateY(-6px);
+  background: #38BDF8;
+  color: #101820;
+  border-color: #38BDF8;
+}
+.name, .phone {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+}
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+} 
+footer {
+    background-color: #192630;
+    color: #F1F5F9;
+    padding: 20px;
+    text-align: center;
+     border-radius: 30px;
+     height: 300px;
+}
